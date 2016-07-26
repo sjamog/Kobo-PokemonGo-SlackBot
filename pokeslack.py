@@ -25,6 +25,7 @@ from google.protobuf.internal import encoder
 from google.protobuf.message import DecodeError
 from s2sphere import *
 from datetime import datetime
+from datetime import timedelta
 from geopy.geocoders import GoogleV3
 from gpsoauth import perform_master_login, perform_oauth
 from geopy.exc import GeocoderTimedOut, GeocoderServiceError
