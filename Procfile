@@ -1,0 +1,1 @@
+bot: python pokeslack.py -a google -u  kobopogo009@gmail.com -p h4z201SA -l "135 liberty street" -st 5 -r 300 -sw "/services/T07DX685R/B1V2UP31D/ynkq73o8dGHXh6guAqUOc3rc" -pi ':pokemon-' -i "zubat,rattata,pidgey,drowzee,caterpie,weedle"
