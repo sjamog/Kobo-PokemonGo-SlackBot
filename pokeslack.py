@@ -825,7 +825,7 @@ transform_from_wgs_to_gcj(Location(Fort.Latitude, Fort.Longitude))
             disappear_seconds = str(disappear_seconds)
             if len(disappear_seconds) == 1:
                 disappear_seconds = str(0) + disappear_seconds
-			disappear_datetime_local = disappear_datetime - datetime.timedelta(hours=4)
+            disappear_datetime_local = disappear_datetime - datetime.timedelta(hours=4)
             disappear_time = disappear_datetime_local.strftime("%H:%M:%S")
 
             # calculate direction of Pokemon in bearing degrees
