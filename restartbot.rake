@@ -14,6 +14,7 @@
 namespace :heroku do
     namespace :bots do
         desc "Restart the webserver by restarting all Heroku 'bot' dynos (optionally sleeping between each process-restart)"
+		puts "try to restart or something"
         task :restart, [:sleep] do |t, args|
             args.with_defaults sleep:0
             heroku = Heroku::API.new
